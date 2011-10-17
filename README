@@ -1,0 +1,18 @@
+
+PiApproximation
+---------------
+This application uses an approximation algorithm to compute pi.
+
+Imagine a circle inscribed in a square with side length 1.
+The radius of the circle is 1/2.
+The area of a circle of radius r is: pi * r * r
+So, the area of our circle of radius 0.5 is: pi * 0.5 * 0.5 = pi/4
+Hence, pi is four times the area of the circle.
+ 
+We can approximate the area of the circle by generating random points
+in the square of side length 1 and counting how many of them are 
+within the circle, i.e. closer than 0.5 to the center.
+
+So, the value of pi is the ratio between the number of inscribed points
+and the total number of points, times 4. 
+
